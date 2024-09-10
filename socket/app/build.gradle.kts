@@ -7,6 +7,10 @@ android {
     namespace = "com.gnoam.socket"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.gnoam.socket"
         minSdk = 24
@@ -36,6 +40,12 @@ android {
 }
 
 dependencies {
+
+//    implementation ("io.socket:socket.io-client:2.0.0")
+
+    implementation ("io.socket:socket.io-client:2.0.0") {
+        exclude(group = "org.json", module = "json")
+    }
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
