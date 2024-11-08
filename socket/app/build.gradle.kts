@@ -54,4 +54,13 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
+
+    // RxJava
+    implementation ("io.reactivex.rxjava2:rxandroid:2.0.2")
+    implementation ("io.reactivex.rxjava2:rxjava:2.2.18")
+//    implementation group: 'com.uber.rxdogtag', name: 'rxdogtag', version: '1.0.0'
+    implementation("com.uber.rxdogtag:rxdogtag:1.0.0")
+
+    implementation ("org.apache.commons:commons-lang3:3.11")
 }

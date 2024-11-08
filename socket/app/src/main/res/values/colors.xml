@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--    커스텀 색상-->
+    <color name="orange">#FF4800</color>
+    <color name="lblack">#343434</color>
+
+    <color name="background">#F5F5F5</color>
+
+    <color name="statusBarColor">#00000000</color>
+    <color name="backgroundgray">#E2DEDD</color>
+
+    <color name="bt_other_suggestions_on">#726F70</color>
+    <color name="bt_other_suggestions_off">#D6D4D4</color>
+
+    <color name="status_bar_color_white">#D6D4D4</color>
+    <color name="navigation_bar_color_white">#D6D4D4</color>
+
+    <color name="status_bar_color_black">#FF000000</color>
+    <color name="navigation_bar_color_black">#FF000000</color>
+
 </resources>
